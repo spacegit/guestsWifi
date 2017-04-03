@@ -72,7 +72,7 @@ h1 {
   box-shadow: 0 5px 15px rgba(0,0,0,.08)
 }
 
-.mainLogo {
+.main-logo {
   display: block;
   width: 150px;
   margin: 0 auto 1.5em;
@@ -93,14 +93,14 @@ h1 {
 
 /*Forms*/
 
-.formControl {
-  margin-bottom: 1.5em;
+.form-control {
+  margin-bottom: 1.125em;
 }
 
 .form-input {
   display: block;
   width: 100%;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   font-size: 1em;
   line-height: 1.5;
   color: #464a4c;
@@ -115,7 +115,8 @@ h1 {
 
 .form-input:focus{
   border-color: #00a3e0;
-   outline: 0;
+  outline: 0;
+  color: #00a3e0;
 }
 
 .btn {
@@ -143,8 +144,39 @@ h1 {
   background-color: #608a00;
 }
 
+#user
+{
+  background-image: url(../images/user.svg);
+  background-position: 0.5em 50%;
+  background-repeat: no-repeat;
+}
+
+#pass
+{
+  background-image: url(../images/pass.svg);
+  background-position: 0.5em 50%;
+  background-repeat: no-repeat;
+}
+
+#user:focus
+{
+  background-image: url(../images/userHover.svg);
+  background-position: 0.5em 50%;
+  background-repeat: no-repeat;
+}
+
+#pass:focus
+{
+  background-image: url(../images/passHover.svg);
+  background-position: 0.5em 50%;
+  background-repeat: no-repeat;
+}
+
 /*helper*/
 
 .text-center {
   text-align: center;
 }
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>userHover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,0 C10.209,0 12,1.791 12,4 C12,6.209 10.209,8 8,8 C5.791,8 4,6.209 4,4 C4,1.791 5.791,0 8,0 Z M16,13.2 L16,16 L0,16 L0,13.2 C0,12.417 0.45,11.705 1.163,11.382 C2.461,10.795 4.808,10 8,10 C11.192,10 13.539,10.795 14.837,11.382 C15.55,11.705 16,12.417 16,13.2 Z" id="userHover" fill="#00A3E0"></path>
+    </g>
+</svg>
