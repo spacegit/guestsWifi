@@ -33,6 +33,7 @@ body {
    font-weight: normal;
    line-height: 1.5;
    color: #4E504F;
+   background: #FAFAFA;
    background: url(../images/flyWithUs.jpg) no-repeat center center fixed;
    background-size: cover;
 }
@@ -46,9 +47,9 @@ h1 {
 
 .container {
   width: 100%;
-  max-width: 375px;
+  max-width: 400px;
   margin: 0 auto;
-  padding-top: 2em;
+  padding: 2em 0;
 }
 
 .container-lg {
@@ -64,16 +65,17 @@ h1 {
 }
 
 .card {
+  margin: 0 1em 1em;
   padding: 1.25em 1.5em;
   background: #fff;
   border-radius: 4px;
-  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  box-shadow: 0 5px 15px rgba(0,0,0,.08)
 }
 
 .mainLogo {
   display: block;
   width: 150px;
-  margin: 0 auto 1em;
+  margin: 0 auto 1.5em;
 }
 
 .footer-logo {
@@ -81,7 +83,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin: 1em 1em 1em;
+  margin: 0 1em;
 }
 
 .footer-logo img {
