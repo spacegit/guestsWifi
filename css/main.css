@@ -1,0 +1,139 @@
+* { box-sizing: border-box; }
+
+@font-face {
+  font-family: 'effra';
+  src: url('../font/web/Effra_W_Bd.eot');
+  src: url('../font/web/Effra_W_Bd.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'effra';
+  src: url('../font/web/Effra_W_Lt.eot');
+  src: url('../font/web/Effra_W_Lt.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'effra';
+  src: url('../font/web/Effra_W_Rg.eot');
+  src: url('../font/web/Effra_W_Rg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body { height: 100%; }
+
+body {
+   margin: 0;
+   font-family: Effra, "Helvetica Neue", Arial, sans-serif;
+   font-size: 1em;
+   font-weight: normal;
+   line-height: 1.5;
+   color: #4E504F;
+   background: #FAFAFA;
+   background: url(../images/flyWithUs.jpg) no-repeat center center fixed;
+   background-size: cover;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: .75em;
+}
+
+/*Style*/
+
+.container {
+  max-width: 300px;
+  min-width: 280px;
+  margin: 2em auto;
+}
+
+.container-lg {
+  max-width: 640px;
+}
+
+.card {
+  margin-bottom: 1em;
+  padding: 1.25em 1.5em;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08)
+}
+
+.mainLogo {
+  display: block;
+  width: 150px;
+  margin: 0 auto 1.5em;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+opacity: 0.8;
+}
+
+/*Forms*/
+
+.formControl {
+  margin-bottom: 1.5em;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #464a4c;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+         background-clip: padding-box;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  margin-bottom: .5em;
+}
+
+.form-input:focus{
+  border-color: #00a3e0;
+   outline: 0;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  line-height: 1.5;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #84BD00;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #608a00;
+}
+
+/*helper*/
+
+.text-center {
+  text-align: center;
+}
