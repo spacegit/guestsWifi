@@ -116,7 +116,6 @@ h1 {
 .form-input:focus{
   border-color: #00a3e0;
   outline: 0;
-  color: #00a3e0;
 }
 
 .btn {
