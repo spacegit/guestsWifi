@@ -88,7 +88,6 @@ h1 {
 
 .footer-logo img {
   margin-bottom: 0.5em;
-  opacity: 0.8;
 }
 
 /*Forms*/
@@ -103,7 +102,7 @@ h1 {
   padding: 0.5em 2em;
   font-size: 1em;
   line-height: 1.5;
-  color: #464a4c;
+  color: #4E504F;
   background-color: #fff;
   background-image: none;
   -webkit-background-clip: padding-box;
