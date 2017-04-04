@@ -2,24 +2,24 @@
 
 @font-face {
   font-family: 'effra';
-  src: url('../font/web/Effra_W_Bd.eot');
-  src: url('../font/web/Effra_W_Bd.woff') format('woff');
+  src: url('Effra_W_Bd.eot');
+  src: url('Effra_W_Bd.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'effra';
-  src: url('../font/web/Effra_W_Lt.eot');
-  src: url('../font/web/Effra_W_Lt.woff') format('woff');
+  src: url('Effra_W_Lt.eot');
+  src: url('Effra_W_Lt.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'effra';
-  src: url('../font/web/Effra_W_Rg.eot');
-  src: url('../font/web/Effra_W_Rg.woff') format('woff');
+  src: url('Effra_W_Rg.eot');
+  src: url('Effra_W_Rg.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,7 +34,7 @@ body {
    line-height: 1.5;
    color: #4E504F;
    background: #FAFAFA;
-   background: url(../images/flyWithUs.jpg) no-repeat center center fixed;
+   background: url(./flyWithUs.jpg) no-repeat center center fixed;
    background-size: cover;
 }
 
@@ -142,30 +142,41 @@ h1 {
   background-color: #608a00;
 }
 
+.back-btn{
+width: 45%;
+display: inline;
+}
+
+.pull-left{
+  float: left;
+  margin-right: 5px; 
+
+}
+
 #user
 {
-  background-image: url(../images/user.svg);
+  background-image: url(./user.svg);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
 #pass
 {
-  background-image: url(../images/pass.svg);
+  background-image: url(./pass.svg);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
 #user:focus
 {
-  background-image: url(../images/userHover.svg);
+  background-image: url(./userHover.svg);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
 #pass:focus
 {
-  background-image: url(../images/passHover.svg);
+  background-image: url(./passHover.svg);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
