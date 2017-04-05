@@ -2,24 +2,24 @@
 
 @font-face {
   font-family: 'effra';
-  src: url('Effra_W_Bd.eot');
-  src: url('Effra_W_Bd.woff') format('woff');
+  src: url('../font/web/Effra_W_Bd.eot');
+  src: url('../font/web/Effra_W_Bd.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'effra';
-  src: url('Effra_W_Lt.eot');
-  src: url('Effra_W_Lt.woff') format('woff');
+  src: url('../font/web/Effra_W_Lt.eot');
+  src: url('../font/web/Effra_W_Lt.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'effra';
-  src: url('Effra_W_Rg.eot');
-  src: url('Effra_W_Rg.woff') format('woff');
+  src: url('../font/web/Effra_W_Rg.eot');
+  src: url('../font/web/Effra_W_Rg.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -138,45 +138,35 @@ h1 {
 }
 
 .btn:hover {
-  color: #fff;
+  color: red;
   background-color: #608a00;
-}
-
-.back-btn{
-width: 45%;
-display: inline;
-}
-
-.pull-left{
-  float: left;
-  margin-right: 5px; 
-
 }
 
 #user
 {
-  background-image: url(./user.png);
-  background-position: 0.5em 50%;
-  background-repeat: no-repeat;
-}
 
-#pass
-{
-  background-image: url(./pass.png);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
 #user:focus
 {
-  background-image: url(./userHover.png);
+  background-image: url(../images/userHover2X.png);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
+#pass
+{
+  background-image: url(../images/pass.svg);
+  background-position: 0.5em 50%;
+  background-repeat: no-repeat;
+}
+
+
 #pass:focus
 {
-  background-image: url(./passHover.png);
+  background-image: url(../images/passHover.svg);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
