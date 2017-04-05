@@ -17,13 +17,19 @@
           <div class="main-logo">
             <img src="mainLogo.png" srcset="mainLogo.png 1x, mainLogo.pngX2.png 2x, mainLogoX3.png 3x" alt="Tripsta" width="150">
           </div>
-          <h1 class="" style="color: green">Fly with us!</h1>
+          <h1 class="" style="color: orange">Fly with us!</h1>
 
           <form class="form-control" action="/action_page.php">
 
-              <input class="form-input" id="user" type="text" name="fname" placeholder="Username">
+              <div id="input-container">
+                <input class="form-input" id="input" type="text" name="fname" placeholder="Username">
+                <img src="user.png" srcset="user.png 1x, userX2.png 2x, userX3.png 3x" alt="logo" width="16" id="input-img">
+              </div>
 
-              <input class="form-input" id="pass" type="text" name="lname" placeholder="Password">
+              <div id="input-container">
+                <input class="form-input" id="input" type="text" name="password" placeholder="Password">
+                <img src="pass.png" srcset="pass.png 1x, passX2.png 2x, passX3.png 3x" alt="logo" width="14" id="input-img">
+              </div>
 
               <input class="btn" type="submit" value="Submit">
 
