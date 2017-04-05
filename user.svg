@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>user</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M8,0 C10.209,0 12,1.791 12,4 C12,6.209 10.209,8 8,8 C5.791,8 4,6.209 4,4 C4,1.791 5.791,0 8,0 Z M16,13.2 L16,16 L0,16 L0,13.2 C0,12.417 0.45,11.705 1.163,11.382 C2.461,10.795 4.808,10 8,10 C11.192,10 13.539,10.795 14.837,11.382 C15.55,11.705 16,12.417 16,13.2 Z" id="user" fill="#999999"></path>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#999999;}
+</style>
+<title>user</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<path id="user" class="st0" d="M8,0c2.2,0,4,1.8,4,4s-1.8,4-4,4S4,6.2,4,4S5.8,0,8,0z M16,13.2V16H0v-2.8c0-0.8,0.4-1.5,1.2-1.8
+		C2.5,10.8,4.8,10,8,10s5.5,0.8,6.8,1.4C15.6,11.7,16,12.4,16,13.2z"/>
+</g>
 </svg>

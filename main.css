@@ -155,28 +155,28 @@ display: inline;
 
 #user
 {
-  background-image: url(./user.svg);
+  background-image: url(./user.png);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
 #pass
 {
-  background-image: url(./pass.svg);
+  background-image: url(./pass.png);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
 #user:focus
 {
-  background-image: url(./userHover.svg);
+  background-image: url(./userHover.png);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
 
 #pass:focus
 {
-  background-image: url(./passHover.svg);
+  background-image: url(./passHover.png);
   background-position: 0.5em 50%;
   background-repeat: no-repeat;
 }
