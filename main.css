@@ -154,10 +154,34 @@ body {
 {
   float: right;
   clear: both;
-  display: block;
+  padding: .25em;
 }
+
+.closeBtn:hover
+{
+
+}
+
 /*helper*/
 
 .text-center {
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
