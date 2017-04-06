@@ -45,6 +45,11 @@ h1 {
 
 /*Style*/
 
+.colorTest
+{
+  color: #E2722B;
+}
+
 .container {
   width: 100%;
   max-width: 400px;
