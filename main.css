@@ -38,11 +38,6 @@ body {
    background-size: cover;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: .75em;
-}
-
 /*Style*/
 
 .colorTest
@@ -74,13 +69,13 @@ h1 {
   padding: 1.25em 1.5em;
   background: #fff;
   border-radius: 4px;
-  box-shadow: 0 5px 15px rgba(0,0,0,.08)
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
 }
 
 .main-logo {
   width: 150px;
   display: block;
-  margin: 0 auto 1.5em;
+  margin: 0 auto 1em;
 }
 
 .footer-logo {
@@ -155,6 +150,12 @@ h1 {
 
 .input-img { position:absolute; bottom:16px; left:10px; width:16px; height:16px; }
 
+.closeBtn
+{
+  float: right;
+  clear: both;
+  display: block;
+}
 /*helper*/
 
 .text-center {
