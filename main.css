@@ -112,6 +112,10 @@ h1 {
   margin-bottom: .5em;
 }
 
+.form-input + img + img{display: none;}
+.form-input:focus + img{display: none;}
+.form-input:focus + img + img{display: block;}
+
 .form-input:focus{
   border-color: #00a3e0;
   outline: 0;
@@ -143,7 +147,8 @@ h1 {
 }
 
 #input-container { position:relative; padding:0; margin:0; }
-#input-img { position:absolute; bottom:16px; left:10px; width:16px; height:16px; }
+
+.input-img { position:absolute; bottom:16px; left:10px; width:16px; height:16px; }
 
 #user:focus
 {

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="main.css">
-  <meta http-equiv="Pragma" content="no-cache"> <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"> 
+  <meta http-equiv="Pragma" content="no-cache"> <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
   <title>Tripsta Guest WiFi network</title>
   <script>
   function submitAction(){
@@ -27,8 +27,8 @@
                 var value = pairs[i].substring(pos+1);
                 args[argname] = unescape(value);
             }
-            document.forms[0].action = args.switch_url;       
-        }       
+            document.forms[0].action = args.switch_url;
+        }
         if(equalIndex >= 0) {
               equalIndex += searchString.length;
               redirectUrl = "";
@@ -85,9 +85,11 @@
   <div class="container">
     <div class="card text-center">
       <img class="main-logo" src="mainLogo.png" alt="logo">
-      <h1 class="">Fly with us!</h1>
+      <h1>Fly with us!</h1>
       <form class="form-control" method="post">
-          <input TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" value="0"> <input TYPE="hidden" NAME="redirect_url" SIZE="255" MAXLENGTH="255" VALUE=""> <input TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" value="0">
+          <input TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" value="0">
+          <input TYPE="hidden" NAME="redirect_url" SIZE="255" MAXLENGTH="255" VALUE="">
+          <input TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" value="0">
           <input class="form-input" id="user" placeholder="Username" type="TEXT" name="username" SIZE="25" MAXLENGTH="63" VALUE="">
           <input class="form-input" id="pass" placeholder="Password" type="Password" name="password" SIZE="25" MAXLENGTH="63" VALUE="">
           <input class="btn" type="submit" value="Submit" onclick="submitAction();">
