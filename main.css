@@ -40,11 +40,6 @@ body {
 
 /*Style*/
 
-.colorTest
-{
-  color: #E2722B;
-}
-
 .container {
   width: 100%;
   max-width: 400px;
@@ -152,13 +147,6 @@ body {
 .closeBtn
 {
   float: right;
-  clear: both;
-  padding: .25em;
-}
-
-.closeBtn:hover
-{
-
 }
 
 /*helper*/
@@ -167,6 +155,12 @@ body {
   text-align: center;
 }
 
+/*test*/
+
+.colorTest
+{
+  color: #84BD00;
+}
 
 
 
